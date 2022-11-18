@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Titres */
+.cc {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.devback {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cc:hover {
+    color: rgb(84, 84, 221);
+}
+
+.devback:hover {
+    color: rgb(84, 84, 221);
+}
+
+/* Rectangle dans le header */
+#rectangle {
+    width: 98%;
+    height: 60px;
+    background: rgb(88, 88, 88);
+    position: absolute;
+    top: 130px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.infos {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(84, 84, 221);
+}
+
+/* Oval = Rectangle gris pour les titres*/
+#oval {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#ovaltext {
+    width: 200px;
+    height: 40px;
+    background: rgb(195, 195, 195);
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: width 1s;
+}
+#ovaltext:hover {
+    width: 300px;
+}
+
+#ovaltext2 {
+    width: 200px;
+    height: 40px;
+    background: rgb(195, 195, 195);
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: width 1s;
+}
+#ovaltext2:hover {
+    width: 300px;
+}
+
+#ovaltext3 {
+    width: 200px;
+    height: 40px;
+    background: rgb(195, 195, 195);
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: width 1s;
+}
+#ovaltext3:hover {
+    width: 300px;
+}
+
+.sommaire {
+    position: relative;
+    top: 10px;
+    left: 55px;
+    font-size: 14px;
+}
+.skills {
+    position: relative;
+    top: 10px;
+    left: 75px;
+    font-size: 14px;
+}
+.formation {
+    position: relative;
+    top: 10px;
+    left: 55px;
+    font-size: 14px;
+}
+#text2{
+    position: absolute;
+    left: 610px;
+    top: 297px;
+    font-size: 14px;
+}
+#text3{
+    position: absolute;
+    left: 1080px;
+    top: 297px;
+    font-size: 14px;
+}
