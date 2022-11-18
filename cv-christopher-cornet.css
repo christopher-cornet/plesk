@@ -123,15 +123,22 @@ a:hover {
     left: 55px;
     font-size: 14px;
 }
-#text2{
+#text2 {
     position: absolute;
     left: 610px;
     top: 297px;
     font-size: 14px;
 }
-#text3{
+#text3 {
     position: absolute;
     left: 1080px;
     top: 297px;
     font-size: 14px;
+}
+
+.plesk {
+    color: #000;
+}
+.site {
+    color: #000;
 }
